@@ -2,21 +2,17 @@ body {
   background-image: url("boat.svg");
   background-repeat: repeat;
   background-position: right top;
-  background-size: 100px 100px;
-  
-    
+  background-size: 50px 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .board {
@@ -24,25 +20,25 @@ main {
 }
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 
 }
 
 td {
-    border: 3px solid black;
-    width: 30px;
-    height: 30px;
-    background: rgb(255, 255, 255);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  border: 3px solid black;
+  width: 30px;
+  height: 30px;
+  background: rgb(255, 255, 255);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
 }
 
 .list {
@@ -106,8 +102,8 @@ a {
     left: 0;
   }
   a span:nth-child(3) {
-    top: -100%;
-    right: -100%;
+  top: -100%;
+  right: -100%;
   }
   a:hover span:nth-child(3) {
     top: 0;
